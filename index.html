@@ -25,46 +25,41 @@
       transform: translate(-50%, -50%);
       writing-mode: vertical-rl;
       text-orientation: upright;
-      font-size: 48px;  /* サイズを少し小さくしました */
+      font-size: 28px;  /* サイズをさらに小さくしました */
       font-weight: bold;
       color: gold;
       text-shadow: 3px 3px 6px #000;
-      line-height: 1.2em;
+      line-height: 1.1em;
       display: flex;
       justify-content: center;
-      gap: 50px;
+      gap: 30px;
     }
 
     .hero-text span {
       display: inline-block;
     }
 
-    header {
-      background-color: rgba(0, 0, 0, 0.85);
+    .tanka {
+      position: absolute;
+      bottom: 10%;
+      right: 10%;
+      writing-mode: vertical-rl;
+      font-size: 18px;  /* サイズをさらに小さくしました */
+      color: #f0e68c;
+      background-color: rgba(0, 0, 0, 0.3);
+      padding: 20px;
+      border: 2px dashed gold;
       text-align: center;
-      padding: 15px;
     }
-    .logo {
-      height: 100px;
-    }
-    nav ul {
-      display: flex;
-      justify-content: center;
-      list-style: none;
-      gap: 30px;
-      padding: 10px;
-    }
-    nav ul li a {
-      color: gold;
-      text-decoration: none;
-      font-weight: bold;
-      font-size: 18px;
-    }
+
     footer {
       background-color: rgba(0,0,0,0.7);
       color: #ccc;
       text-align: center;
       padding: 15px;
+      position: absolute;
+      bottom: 0;
+      width: 100%;
     }
   </style>
 </head>
@@ -94,6 +89,14 @@
     <span>極</span>
     <span>み</span>
     <span>へ</span>
+  </div>
+
+  <div class="tanka">
+    神舞の竿<br>
+    和の魂宿し<br>
+    刀のごと<br>
+    魚と舞うは<br>
+    水面の美
   </div>
 
   <footer>
