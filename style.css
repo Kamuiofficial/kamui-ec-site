@@ -28,8 +28,7 @@ nav ul li a {
 }
 main {
   padding: 30px;
-  background: url('wagara.png') repeat center center;
-  background-size: cover;
+  background-color: #1a1a1a;
   min-height: 500px;
 }
 h2 {
