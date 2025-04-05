@@ -1,0 +1,31 @@
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>カート - 神威</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="cart.js" defer></script>
+</head>
+<body>
+  <header><img src="logo.png" alt="神威ロゴ" class="logo" /></header>
+  <main>
+    <h2>ショッピングカート</h2>
+    <div id="cart-items"></div>
+    <h3>注文情報</h3>
+    <form action="mailto:your@email.com" method="post" enctype="text/plain">
+      <label>お名前：<input type="text" name="name" required /></label><br />
+      <label>メールアドレス：<input type="email" name="email" required /></label><br />
+      <label>備考：<textarea name="message" rows="4"></textarea></label><br />
+      <input type="submit" value="注文する" />
+    </form>
+    <p>※注文後、以下の方法でお支払いください：</p>
+    <ul>
+      <li>銀行振込：○○銀行 △△支店 普通 1234567 カムイ（カ）</li>
+      <li>クレジットカード：別途メールにて決済リンクを送付</li>
+    </ul>
+  </main>
+  <footer><p>&copy; 2025 神威</p></footer>
+</body>
+</html>
