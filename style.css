@@ -1,47 +1,74 @@
 
 body {
-  font-family: 'Yuji Syuku', serif;
-  background: url('bg.jpg') no-repeat center center fixed;
-  background-size: cover;
-  color: #ffe4b5;
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    font-family: 'Noto Serif JP', serif;
+    background: url('assets/background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
 }
-header {
-  background-color: rgba(0, 0, 0, 0.85);
-  text-align: center;
-  padding: 15px;
+
+.main-nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0.5em 0;
 }
-.logo {
-  height: 100px;
+.main-nav li {
+    margin: 0 1em;
 }
-nav ul {
-  display: flex;
-  justify-content: center;
-  list-style: none;
-  gap: 30px;
-  padding: 0;
+.main-nav a {
+    text-decoration: none;
+    color: yellow;
+    font-weight: bold;
 }
-nav ul li a {
-  color: gold;
-  text-decoration: none;
-  font-weight: bold;
-  font-size: 18px;
+
+.hero-header {
+    position: relative;
+    height: 100vh;
+    text-align: center;
+    padding-top: 2em;
 }
-main {
-  padding: 30px;
-  background-color: rgba(0, 0, 0, 0.6);
-  min-height: 500px;
+
+.catchcopy {
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    font-size: 1.2rem;
+    margin: 0 auto;
+    color: gold;
+}
+
+.tanka {
+    position: absolute;
+    bottom: 1em;
+    right: 1em;
+    font-size: 0.9rem;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.product-detail {
+    max-width: 600px;
+    margin: 2em auto;
+    padding: 1em;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+.product-detail h1 {
+    font-size: 1.5rem;
+}
+.product-image {
+    width: 100%;
+    height: auto;
+    margin: 1em 0;
+}
+.description {
+    line-height: 1.6;
+}
+.price {
+    font-weight: bold;
 }
 footer {
-  background-color: rgba(0, 0, 0, 0.7);
-  color: #ccc;
-  text-align: center;
-  padding: 15px;
-}
-.product-img {
-  width: 320px;
-  display: block;
-  margin: 20px auto;
-  border: 2px solid gold;
+    text-align: center;
+    padding: 2em;
+    font-size: 0.9rem;
 }

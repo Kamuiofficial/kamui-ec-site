@@ -2,107 +2,35 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>神舞 -Kamui- ECサイト</title>
-  <link rel="stylesheet" href="style.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Yuji+Syuku&display=swap" rel="stylesheet" />
-  <style>
-    body {
-      font-family: 'Yuji Syuku', serif;
-      background: url('bg.jpg') no-repeat center center fixed;
-      background-size: cover;
-      color: #ffe4b5;
-      margin: 0;
-      padding: 0;
-      overflow-x: hidden;
-    }
-
-    .hero-text {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      writing-mode: vertical-rl;
-      text-orientation: upright;
-      font-size: 28px;  /* サイズをさらに小さくしました */
-      font-weight: bold;
-      color: gold;
-      text-shadow: 3px 3px 6px #000;
-      line-height: 1.1em;
-      display: flex;
-      justify-content: center;
-      gap: 30px;
-    }
-
-    .hero-text span {
-      display: inline-block;
-    }
-
-    .tanka {
-      position: absolute;
-      bottom: 10%;
-      right: 10%;
-      writing-mode: vertical-rl;
-      font-size: 18px;  /* サイズをさらに小さくしました */
-      color: #f0e68c;
-      background-color: rgba(0, 0, 0, 0.3);
-      padding: 20px;
-      border: 2px dashed gold;
-      text-align: center;
-    }
-
-    footer {
-      background-color: rgba(0,0,0,0.7);
-      color: #ccc;
-      text-align: center;
-      padding: 15px;
-      position: absolute;
-      bottom: 0;
-      width: 100%;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>神舞 -Kamui-</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <img src="logo.png" class="logo" alt="神舞ロゴ">
-    <nav>
-      <ul>
-        <li><a href="index.html">ホーム</a></li>
-        <li><a href="product.html">商品</a></li>
-        <li><a href="cart.html">カート</a></li>
-        <li><a href="contact.html">お問い合わせ</a></li>
-      </ul>
-    </nav>
-  </header>
-
-  <div class="hero-text">
-    <span>昇</span>
-    <span>り</span>
-    <span>龍</span>
-    <span>の</span>
-    <span>如</span>
-    <span>く</span>
-    <span>釣</span>
-    <span>り</span>
-    <span>の</span>
-    <span>極</span>
-    <span>み</span>
-    <span>へ</span>
-  </div>
-
-  <div class="tanka">
-    神舞の竿<br>
-    和の魂宿し<br>
-    刀のごと<br>
-    魚と舞うは<br>
-    水面の美
-  </div>
-
-  <footer>
-    <p>お問い合わせ：090-1843-3099<br>
-    Instagram: <a href="https://www.instagram.com/kamui_official_2023" target="_blank" style="color: #ffd700;">@kamui_official_2023</a></p>
-    <p>&copy; 2025 神舞 -Kamui-</p>
-  </footer>
+    <header class="hero-header">
+        <nav class="main-nav">
+            <ul>
+                <li><a href="#">ホーム</a></li>
+                <li><a href="#">商品</a></li>
+                <li><a href="#">カート</a></li>
+                <li><a href="#">お問い合わせ</a></li>
+            </ul>
+        </nav>
+        <h2 class="catchcopy">昇り龍の如く、釣りの極みへ</h2>
+        <p class="tanka">神舞の釣竿は、日本刀のごとく魚と舞う。和の魂宿る逸品。</p>
+    </header>
+    <section class="product-detail">
+        <h1>桜花 682MS</h1>
+        <img src="assets/sakura.jpg" alt="桜花 682MS" class="product-image">
+        <p class="price">価格：税込 66,000円</p>
+        <p class="description">神舞ブランド第一作目、バーサタイルスピニングロッド「桜花」。<br>
+        強靭なバットとしなやかなティップで、バス・トラウト・ライトソルトなどあらゆる魚種に対応する万能モデル。</p>
+    </section>
+    <footer>
+        <p>お問い合わせ：090-1843-3099</p>
+        <p>Instagram: <a href="https://www.instagram.com/kamui_official_2023" target="_blank">@kamui_official_2023</a></p>
+        <p>&copy; 2025 神舞 -Kamui-</p>
+    </footer>
 </body>
 </html>
