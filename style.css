@@ -1,36 +1,48 @@
-
 body {
   margin: 0;
   font-family: 'Noto Serif JP', serif;
   background: url('background.png') no-repeat center center fixed;
-  background-size: contain;
-  color: #fff;
+  background-size: cover;
+  color: white;
 }
-.header {
-  background: rgba(0, 0, 0, 0.5);
-  padding: 0.5em 1em;
+header {
   text-align: center;
+  padding: 1em;
 }
 .logo {
-  width: 120px;
-  margin-bottom: 0.3em;
+  width: 150px;
 }
-.nav-links {
-  display: flex;
-  justify-content: center;
-  gap: 1.5em;
-  flex-wrap: wrap;
-}
-.nav-links a {
+nav a {
+  color: gold;
+  margin: 0 10px;
   text-decoration: none;
   font-weight: bold;
-  padding: 0.4em 1em;
-  color: gold;
-  background: rgba(0, 0, 0, 0.6);
-  border-radius: 6px;
-  transition: background 0.3s;
 }
-.nav-links a:hover {
-  background: gold;
-  color: black;
+section {
+  max-width: 700px;
+  margin: 2em auto;
+  padding: 1em;
+  background: rgba(0,0,0,0.6);
+  border-radius: 10px;
+}
+.product-image {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+}
+header {
+  position: relative;
+  top: 0;
+  z-index: 10;
+}
+footer {
+  position: relative;
+  bottom: 0;
+  z-index: 10;
 }
