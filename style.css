@@ -1,94 +1,43 @@
 
-body {
-  margin: 0;
-  font-family: 'Noto Serif JP', serif;
-  background: url('background.png') no-repeat center center fixed;
-  background-size: contain;
-  color: #fff;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-.header {
-  background: rgba(0, 0, 0, 0.5);
-  padding: 0.5em 1em;
-  text-align: center;
+body {
+    min-height: 100vh;
+    background-color: black;
+    background-image: url('background.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+    color: #fff;
+}
+header {
+    text-align: center;
+    padding: 1rem 0;
 }
 .logo {
-  width: 120px;
-  margin-bottom: 0.3em;
+    width: 100px;
+    margin-bottom: 1rem;
 }
-.nav-links {
-  display: flex;
-  justify-content: center;
-  gap: 1.5em;
-  flex-wrap: wrap;
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
 }
-.nav-links a {
-  text-decoration: none;
-  font-weight: bold;
-  padding: 0.4em 1em;
-  color: gold;
-  background: rgba(0, 0, 0, 0.6);
-  border-radius: 6px;
-  transition: background 0.3s;
+nav a {
+    text-decoration: none;
+    color: yellow;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
 }
-.nav-links a:hover {
-  background: gold;
-  color: black;
-}
-
-.footer {
-  text-align: center;
-  padding: 1em;
-  background: rgba(0, 0, 0, 0.7);
-  font-size: 0.9em;
-  margin-top: 2em;
-}
-
-.buy-button {
-  display: inline-block;
-  margin-top: 1em;
-  padding: 0.6em 1.2em;
-  background-color: gold;
-  color: black;
-  text-decoration: none;
-  font-weight: bold;
-  border-radius: 5px;
-}
-
-html, body {
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-}
-
-body {
-  justify-content: space-between;
-}
-
-.footer {
-  text-align: center;
-  padding: 1em;
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(80, 80, 80, 0.7));
-  font-size: 0.9em;
-  font-family: 'Noto Serif JP', serif;
-  border-top: 2px solid gold;
-  color: gold;
-  margin-top: auto;
-}
-
-.back-btn {
-  margin-top: 2em;
-  text-align: center;
-}
-.back-btn a {
-  text-decoration: none;
-  color: white;
-  background: rgba(255, 215, 0, 0.7);
-  padding: 0.4em 1em;
-  border-radius: 4px;
-  font-weight: bold;
-}
-.product-image {
-  width: 100%;
-  max-width: 90%;
-  height: auto;
+footer {
+    background: rgba(0, 0, 0, 0.8);
+    color: yellow;
+    text-align: center;
+    padding: 1rem 0;
+    position: relative;
 }
