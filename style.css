@@ -74,3 +74,21 @@ body {
   color: gold;
   margin-top: auto;
 }
+
+.back-btn {
+  margin-top: 2em;
+  text-align: center;
+}
+.back-btn a {
+  text-decoration: none;
+  color: white;
+  background: rgba(255, 215, 0, 0.7);
+  padding: 0.4em 1em;
+  border-radius: 4px;
+  font-weight: bold;
+}
+.product-image {
+  width: 100%;
+  max-width: 90%;
+  height: auto;
+}
