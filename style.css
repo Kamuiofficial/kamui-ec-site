@@ -71,3 +71,32 @@ footer {
     padding: 2em;
     font-size: 0.9rem;
 }
+@media screen and (max-width: 768px) {
+    .hero-header {
+        padding-top: 1em;
+        height: auto;
+    }
+
+    .catchcopy {
+        font-size: 1rem;
+    }
+
+    .tanka {
+        font-size: 0.8rem;
+        right: 0.5em;
+        bottom: 0.5em;
+    }
+
+    .product-detail {
+        margin: 1em;
+        padding: 1em;
+    }
+
+    .product-detail h1 {
+        font-size: 1.2rem;
+    }
+
+    .product-image {
+        width: 100%;
+    }
+}
