@@ -1,41 +1,62 @@
 
 body {
     margin: 0;
-    font-family: 'serif';
+    font-family: 'Noto Serif JP', serif;
     background: url('assets/background.png') no-repeat center center fixed;
-    background-size: contain;
-    background-color: black;
-    color: white;
+    background-size: cover;
+    color: #fff;
+}
+
+.logo-container {
     text-align: center;
+    padding-top: 2em;
 }
 
-.hero .logo {
-    width: 200px;
-    margin: 20px auto;
+.logo {
+    width: 50%;
+    max-width: 300px;
+    height: auto;
 }
 
-header nav {
-    background: rgba(0, 0, 0, 0.8);
-    padding: 10px;
+.product-container {
+    max-width: 600px;
+    margin: 2em auto;
+    padding: 1em;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    color: white;
 }
 
-header nav a {
-    color: gold;
-    margin: 0 15px;
-    text-decoration: none;
+.product-container h1 {
+    font-size: 1.5rem;
+}
+
+.product-image {
+    width: 100%;
+    height: auto;
+    margin: 1em 0;
+}
+
+.price {
     font-weight: bold;
 }
 
-.product {
-    padding: 20px;
-    background-color: rgba(0,0,0,0.7);
-    margin: 20px;
-    border-radius: 10px;
+.description {
+    line-height: 1.6;
 }
 
-.product-img {
+    padding: 1em;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+}
+.product-image {
     width: 100%;
-    max-width: 500px;
     height: auto;
-    margin: 0 auto;
+    margin: 1em 0;
+}
+.price {
+    font-weight: bold;
+}
+.description {
+    line-height: 1.6;
 }
