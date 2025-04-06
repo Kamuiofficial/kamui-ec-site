@@ -91,3 +91,45 @@ footer {
   background-color: gold;
   color: black;
 }
+
+/* ヘッダーを上の余白に固定 */
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 1em 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 10;
+  text-align: center;
+}
+
+/* 戻るボタンの強化表示 */
+.back-btn {
+  text-align: center;
+  margin: 3em 0 2em;
+}
+.back-btn a {
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 0.75em 2em;
+  background-color: black;
+  color: gold;
+  border: 2px solid gold;
+  border-radius: 8px;
+  text-decoration: none;
+  display: inline-block;
+  transition: all 0.3s ease;
+}
+.back-btn a:hover {
+  background-color: gold;
+  color: black;
+}
+
+/* 背景を見切れず中央に */
+body {
+  background-image: url('background.png');
+  background-repeat: no-repeat;
+  background-size: 900px 1350px;
+  background-position: top center;
+}
