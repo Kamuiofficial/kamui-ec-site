@@ -1,32 +1,12 @@
 
 body {
     margin: 0;
-    font-family: "Noto Serif JP", serif;
-    background: url('background.png') no-repeat center center fixed;
-    background-size: cover;
+    font-family: 'Noto Serif JP', serif;
+    background: url('background.jpg') no-repeat center center fixed;
+    background-size: contain;
     color: #fff;
 }
 
-.main-nav {
-    text-align: center;
-    padding: 1em 0;
-}
-
-.main-nav .logo {
-    width: 120px;
-    margin-bottom: 0.5em;
-}
-
-.main-nav ul {
-    list-style: none;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    gap: 1.5em;
-}
-
-.main-nav a {
-    color: yellow;
-    text-decoration: none;
-    font-weight: bold;
+.hero-header {
+    height: 100vh;
 }
