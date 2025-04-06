@@ -58,3 +58,28 @@ footer {
         width: 100%;
     }
 }
+.banner {
+    text-align: center;
+    margin: 2em auto;
+}
+.banner-image {
+    width: 90%;
+    max-width: 600px;
+    height: auto;
+}
+
+.order-button {
+    display: block;
+    width: 200px;
+    margin: 2em auto;
+    padding: 0.8em;
+    background: gold;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 8px;
+}
+.order-button:hover {
+    background: #ffd700;
+}
