@@ -1,52 +1,32 @@
 
 body {
   margin: 0;
-  font-family: 'serif';
-  background-color: black;
+  font-family: 'Noto Serif JP', serif;
+  background: url('assets/background.png') no-repeat center center fixed;
+  background-size: contain;
   color: white;
 }
-.main-nav {
-  text-align: center;
-  padding: 1em;
+
+.logo {
+  display: block;
+  margin: 1em auto;
+  width: 120px;
 }
+
 .main-nav ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
   display: flex;
   justify-content: center;
-  gap: 1.5em;
+  list-style: none;
+  padding: 0;
+  margin: 1em 0;
 }
+
+.main-nav li {
+  margin: 0 1em;
+}
+
 .main-nav a {
   text-decoration: none;
-  color: gold;
+  color: yellow;
   font-weight: bold;
-}
-.logo {
-  width: 100px;
-  margin-bottom: 1em;
-}
-.background {
-  width: 100%;
-  height: auto;
-}
-.product-detail, .cart, .contact {
-  max-width: 700px;
-  margin: 2em auto;
-  padding: 1em;
-  background: rgba(0, 0, 0, 0.6);
-  border-radius: 10px;
-}
-.product-image {
-  width: 100%;
-  height: auto;
-}
-.buy-button {
-  display: inline-block;
-  padding: 0.5em 1em;
-  background: gold;
-  color: black;
-  font-weight: bold;
-  text-decoration: none;
-  border-radius: 5px;
 }
