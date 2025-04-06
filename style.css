@@ -55,3 +55,21 @@ footer {
   color: gold;
   margin-top: 2em;
 }
+
+.back-btn {
+  text-align: center;
+  margin: 2em 0 1em;
+}
+.back-btn a {
+  text-decoration: none;
+  color: gold;
+  background: black;
+  padding: 0.5em 1.5em;
+  border-radius: 5px;
+  font-weight: bold;
+  border: 2px solid gold;
+}
+.back-btn a:hover {
+  background: gold;
+  color: black;
+}
