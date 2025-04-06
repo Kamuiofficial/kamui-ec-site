@@ -30,3 +30,19 @@ section {
   max-width: 500px;
   height: auto;
 }
+.buy-button, .nav-links a, .back-btn a {
+  background-color: black;
+  color: gold;
+  border: 2px solid gold;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 6px;
+  display: inline-block;
+  margin-top: 1em;
+  transition: background-color 0.3s, color 0.3s;
+}
+.buy-button:hover, .nav-links a:hover, .back-btn a:hover {
+  background-color: gold;
+  color: black;
+}
