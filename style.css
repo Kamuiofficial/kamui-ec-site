@@ -31,14 +31,27 @@ section {
   height: auto;
 }
 body {
-  background-image: url('background.png');
-  background-repeat: no-repeat;
-  background-position: top center;
-  background-size: contain;
-  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
 }
-html, body {
-  height: 100%;
-  margin: 0;
-  padding: 0;
+header {
+  position: relative;
+  top: 0;
+  z-index: 10;
+}
+footer {
+  position: relative;
+  bottom: 0;
+  z-index: 10;
+}
+
+.footer {
+  text-align: center;
+  padding: 1em;
+  background: rgba(0, 0, 0, 0.8);
+  font-size: 0.9em;
+  color: gold;
+  margin-top: 2em;
 }
