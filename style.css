@@ -46,3 +46,12 @@ footer {
   bottom: 0;
   z-index: 10;
 }
+
+.footer {
+  text-align: center;
+  padding: 1em;
+  background: rgba(0, 0, 0, 0.8);
+  font-size: 0.9em;
+  color: gold;
+  margin-top: 2em;
+}
