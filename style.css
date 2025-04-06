@@ -31,20 +31,16 @@ section {
   height: auto;
 }
 body {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  min-height: 100vh;
+  background-image: url('background.png');
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: contain;
+  background-color: black;
 }
-header {
-  position: relative;
-  top: 0;
-  z-index: 10;
-}
-footer {
-  position: relative;
-  bottom: 0;
-  z-index: 10;
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 .footer {
@@ -54,4 +50,44 @@ footer {
   font-size: 0.9em;
   color: gold;
   margin-top: 2em;
+}
+.back-btn {
+  text-align: center;
+  margin: 3em 0 2em;
+}
+.back-btn a {
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 0.75em 2em;
+  background-color: black;
+  color: gold;
+  border: 2px solid gold;
+  border-radius: 8px;
+  text-decoration: none;
+  display: inline-block;
+  transition: all 0.3s ease;
+}
+.back-btn a:hover {
+  background-color: gold;
+  color: black;
+}
+
+/* PWAとSafariで整合性を取るための表示調整 */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  -webkit-touch-callout: none;
+  -webkit-text-size-adjust: 100%;
+  -webkit-user-select: none;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+/* 背景が左右見切れず、上下に余白が出ても良いように調整 */
+body {
+  background-image: url('background.png');
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: contain;
+  background-color: black;
 }
