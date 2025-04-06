@@ -31,109 +31,14 @@ section {
   height: auto;
 }
 body {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  min-height: 100vh;
-}
-header {
-  position: relative;
-  top: 0;
-  z-index: 10;
-}
-footer {
-  position: relative;
-  bottom: 0;
-  z-index: 10;
-}
-
-.footer {
-  text-align: center;
-  padding: 1em;
-  background: rgba(0, 0, 0, 0.8);
-  font-size: 0.9em;
-  color: gold;
-  margin-top: 2em;
-}
-
-.back-btn {
-  text-align: center;
-  margin: 2em 0 1em;
-}
-.back-btn a {
-  text-decoration: none;
-  color: gold;
-  background: black;
-  padding: 0.5em 1.5em;
-  border-radius: 5px;
-  font-weight: bold;
-  border: 2px solid gold;
-}
-.back-btn a:hover {
-  background: gold;
-  color: black;
-}
-
-/* 見やすく改良されたボタンデザイン */
-.nav-links a, .buy-button, .back-btn a {
-  font-size: 1.1rem;
-  padding: 0.75em 2em;
-  border-radius: 8px;
-  border: 2px solid gold;
-  background-color: black;
-  color: gold;
-  text-decoration: none;
-  font-weight: bold;
-  display: inline-block;
-  transition: all 0.3s ease;
-}
-.nav-links a:hover, .buy-button:hover, .back-btn a:hover {
-  background-color: gold;
-  color: black;
-}
-
-/* ヘッダーを上の余白に固定 */
-.header {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  padding: 1em 0;
-  background: rgba(0, 0, 0, 0.5);
-  z-index: 10;
-  text-align: center;
-}
-
-/* 戻るボタンの強化表示 */
-.back-btn {
-  text-align: center;
-  margin: 3em 0 2em;
-}
-.back-btn a {
-  font-size: 1.2rem;
-  font-weight: bold;
-  padding: 0.75em 2em;
-  background-color: black;
-  color: gold;
-  border: 2px solid gold;
-  border-radius: 8px;
-  text-decoration: none;
-  display: inline-block;
-  transition: all 0.3s ease;
-}
-.back-btn a:hover {
-  background-color: gold;
-  color: black;
-}
-
-/* 背景を見切れず中央に */
-body {
   background-image: url('background.png');
   background-repeat: no-repeat;
-  background-size: 900px 1350px;
   background-position: top center;
+  background-size: contain;
+  background-color: black;
 }
-
-body {
-  background-size: 720px 1080px;
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
