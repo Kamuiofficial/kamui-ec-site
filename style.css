@@ -1,94 +1,32 @@
-
 body {
   margin: 0;
   font-family: 'Noto Serif JP', serif;
   background: url('background.png') no-repeat center center fixed;
-  background-size: contain;
-  color: #fff;
+  background-size: cover;
+  color: white;
 }
-.header {
-  background: rgba(0, 0, 0, 0.5);
-  padding: 0.5em 1em;
+header {
   text-align: center;
+  padding: 1em;
 }
 .logo {
-  width: 120px;
-  margin-bottom: 0.3em;
+  width: 150px;
 }
-.nav-links {
-  display: flex;
-  justify-content: center;
-  gap: 1.5em;
-  flex-wrap: wrap;
-}
-.nav-links a {
-  text-decoration: none;
-  font-weight: bold;
-  padding: 0.4em 1em;
+nav a {
   color: gold;
-  background: rgba(0, 0, 0, 0.6);
-  border-radius: 6px;
-  transition: background 0.3s;
-}
-.nav-links a:hover {
-  background: gold;
-  color: black;
-}
-
-.footer {
-  text-align: center;
-  padding: 1em;
-  background: rgba(0, 0, 0, 0.7);
-  font-size: 0.9em;
-  margin-top: 2em;
-}
-
-.buy-button {
-  display: inline-block;
-  margin-top: 1em;
-  padding: 0.6em 1.2em;
-  background-color: gold;
-  color: black;
+  margin: 0 10px;
   text-decoration: none;
   font-weight: bold;
-  border-radius: 5px;
 }
-
-html, body {
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-}
-
-body {
-  justify-content: space-between;
-}
-
-.footer {
-  text-align: center;
+section {
+  max-width: 700px;
+  margin: 2em auto;
   padding: 1em;
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(80, 80, 80, 0.7));
-  font-size: 0.9em;
-  font-family: 'Noto Serif JP', serif;
-  border-top: 2px solid gold;
-  color: gold;
-  margin-top: auto;
-}
-
-.back-btn {
-  margin-top: 2em;
-  text-align: center;
-}
-.back-btn a {
-  text-decoration: none;
-  color: white;
-  background: rgba(255, 215, 0, 0.7);
-  padding: 0.4em 1em;
-  border-radius: 4px;
-  font-weight: bold;
+  background: rgba(0,0,0,0.6);
+  border-radius: 10px;
 }
 .product-image {
   width: 100%;
-  max-width: 90%;
+  max-width: 500px;
   height: auto;
 }
