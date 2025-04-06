@@ -1,62 +1,32 @@
-
 body {
-    margin: 0;
-    font-family: 'Noto Serif JP', serif;
-    background: url('assets/background.png') no-repeat center center fixed;
-    background-size: cover;
-    color: #fff;
+  margin: 0;
+  font-family: 'Noto Serif JP', serif;
+  background: url('background.png') no-repeat center center fixed;
+  background-size: cover;
+  color: white;
 }
-
-.logo-container {
-    text-align: center;
-    padding-top: 2em;
+header {
+  text-align: center;
+  padding: 1em;
 }
-
 .logo {
-    width: 50%;
-    max-width: 300px;
-    height: auto;
+  width: 150px;
 }
-
-.product-container {
-    max-width: 600px;
-    margin: 2em auto;
-    padding: 1em;
-    background-color: rgba(0, 0, 0, 0.5);
-    border-radius: 10px;
-    color: white;
+nav a {
+  color: gold;
+  margin: 0 10px;
+  text-decoration: none;
+  font-weight: bold;
 }
-
-.product-container h1 {
-    font-size: 1.5rem;
-}
-
-.product-image {
-    width: 100%;
-    height: auto;
-    margin: 1em 0;
-}
-
-.price {
-    font-weight: bold;
-}
-
-.description {
-    line-height: 1.6;
-}
-
-    padding: 1em;
-    background-color: rgba(0, 0, 0, 0.6);
-    border-radius: 10px;
+section {
+  max-width: 700px;
+  margin: 2em auto;
+  padding: 1em;
+  background: rgba(0,0,0,0.6);
+  border-radius: 10px;
 }
 .product-image {
-    width: 100%;
-    height: auto;
-    margin: 1em 0;
-}
-.price {
-    font-weight: bold;
-}
-.description {
-    line-height: 1.6;
+  width: 100%;
+  max-width: 500px;
+  height: auto;
 }
