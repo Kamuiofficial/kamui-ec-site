@@ -133,3 +133,7 @@ body {
   background-size: 900px 1350px;
   background-position: top center;
 }
+
+body {
+  background-size: 720px 1080px;
+}
