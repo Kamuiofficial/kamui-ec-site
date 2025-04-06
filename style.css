@@ -1,122 +1,28 @@
+
 body {
   margin: 0;
-  font-family: 'Noto Serif JP', serif;
-  background: url('background.png') no-repeat center center fixed;
-  background-size: cover;
+  padding: 0;
+  background-image: url('background_for_webpage.png');
+  background-size: contain;
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-color: #000;
+  height: 100vh;
   color: white;
-}
-header {
-  text-align: center;
-  padding: 1em;
-}
-.logo {
-  width: 150px;
-}
-nav a {
-  color: gold;
-  margin: 0 10px;
-  text-decoration: none;
-  font-weight: bold;
-}
-section {
-  max-width: 700px;
-  margin: 2em auto;
-  padding: 1em;
-  background: rgba(0,0,0,0.6);
-  border-radius: 10px;
-}
-.product-image {
-  width: 100%;
-  max-width: 500px;
-  height: auto;
-}
-body {
-  background-image: url('background.png');
-  background-repeat: no-repeat;
-  background-position: top center;
-  background-size: contain;
-  background-color: black;
-}
-html, body {
-  height: 100%;
-  margin: 0;
-  padding: 0;
-}
-
-.footer {
-  text-align: center;
-  padding: 1em;
-  background: rgba(0, 0, 0, 0.8);
-  font-size: 0.9em;
-  color: gold;
-  margin-top: 2em;
-}
-.back-btn {
-  text-align: center;
-  margin: 3em 0 2em;
-}
-.back-btn a {
-  font-size: 1.2rem;
-  font-weight: bold;
-  padding: 0.75em 2em;
-  background-color: black;
-  color: gold;
-  border: 2px solid gold;
-  border-radius: 8px;
-  text-decoration: none;
-  display: inline-block;
-  transition: all 0.3s ease;
-}
-.back-btn a:hover {
-  background-color: gold;
-  color: black;
-}
-
-/* PWAとSafariで整合性を取るための表示調整 */
-html, body {
-  height: 100%;
-  margin: 0;
-  padding: 0;
-  -webkit-touch-callout: none;
-  -webkit-text-size-adjust: 100%;
-  -webkit-user-select: none;
-  -webkit-tap-highlight-color: rgba(0,0,0,0);
-}
-
-/* 背景が左右見切れず、上下に余白が出ても良いように調整 */
-body {
-  background-image: url('background.png');
-  background-repeat: no-repeat;
-  background-position: top center;
-  background-size: contain;
-  background-color: black;
-}
-
-.buy-button {
-  font-size: 1.2rem;
-  padding: 0.75em 2em;
-  background-color: black;
-  color: gold;
-  border: 2px solid gold;
-  border-radius: 8px;
-  text-decoration: none;
-  font-weight: bold;
-  display: inline-block;
-  transition: all 0.3s ease;
-}
-.buy-button:hover {
-  background-color: gold;
-  color: black;
-}
-
-/* フッターをページ最下部に配置 */
-body {
+  font-family: sans-serif;
   display: flex;
   flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  text-align: center;
 }
-main {
-  flex: 1;
+.content {
+  padding-bottom: 50px;
 }
-.footer {
-  margin-top: auto;
+.btn {
+  background: gold;
+  color: black;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
 }
