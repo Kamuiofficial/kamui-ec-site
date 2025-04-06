@@ -1,0 +1,16 @@
+
+{
+    "name": "神舞 -Kamui-",
+    "short_name": "Kamui",
+    "start_url": "index.html",
+    "display": "standalone",
+    "background_color": "#000000",
+    "description": "神舞 -Kamui- 公式ECサイト",
+    "icons": [
+        {
+            "src": "logo.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}
