@@ -1,11 +1,14 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Reggae+One&display=swap');
+
 body {
     margin: 0;
-    font-family: 'serif';
-    background: url('background.jpg') no-repeat center center fixed;
+    font-family: 'Reggae One', cursive;
+    background: url('assets/background.jpg') no-repeat center center fixed;
     background-size: cover;
     color: #fff;
 }
+
 .main-nav ul {
     display: flex;
     justify-content: center;
@@ -21,12 +24,14 @@ body {
     color: yellow;
     font-weight: bold;
 }
+
 .hero-header {
     position: relative;
     height: 100vh;
     text-align: center;
     padding-top: 2em;
 }
+
 .catchcopy {
     writing-mode: vertical-rl;
     text-orientation: upright;
@@ -34,6 +39,7 @@ body {
     margin: 0 auto;
     color: gold;
 }
+
 .tanka {
     position: absolute;
     bottom: 1em;
@@ -41,6 +47,7 @@ body {
     font-size: 0.9rem;
     color: rgba(255, 255, 255, 0.7);
 }
+
 .product-detail {
     max-width: 600px;
     margin: 2em auto;
