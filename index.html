@@ -1,56 +1,42 @@
-
 <!DOCTYPE html>
 <html lang="ja">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>神舞 -Kamui-</title>
-    <link rel="icon" href="assets/logo.png">
-    <style>
-        @font-face {
-            font-family: "筆文字";
-            src: local("YuMincho"), local("Hiragino Mincho Pro"), serif;
-        }
-        body {
-            margin: 0;
-            padding: 0;
-            background-image: url('assets/background.png');
-            background-size: cover;
-            background-position: center;
-            font-family: "筆文字", serif;
-            color: gold;
-            text-align: center;
-        }
-        header {
-            padding: 1em;
-            background-color: rgba(0,0,0,0.5);
-        }
-        nav a {
-            color: gold;
-            margin: 0 1em;
-            text-decoration: none;
-            font-size: 1.2em;
-        }
-        .hero {
-            margin-top: 2em;
-            writing-mode: vertical-rl;
-            text-orientation: upright;
-            font-size: 1.5em;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="manifest.json">
 </head>
 <body>
-    <header>
-        <img src="assets/logo.png" alt="神舞ロゴ" style="height:80px;">
-        <nav>
-            <a href="#">ホーム</a>
-            <a href="#">商品</a>
-            <a href="#">カート</a>
-            <a href="#">お問い合わせ</a>
-        </nav>
+    <header class="main-nav">
+        <ul>
+            <li><a href="#">ホーム</a></li>
+            <li><a href="#">商品</a></li>
+            <li><a href="#">カート</a></li>
+            <li><a href="#">お問い合わせ</a></li>
+        </ul>
     </header>
-    <div class="hero">
-        昇り龍の如く、釣りの極みへ
-    </div>
+    <section class="hero-header">
+        <div class="catchcopy">
+            昇<br>り<br>龍<br>の<br>如<br>く<br><br>釣<br>り<br>の<br>極<br>み<br>へ
+        </div>
+        <div class="tanka">
+            神舞の釣竿は、和の魂宿る唯一無二の逸品
+        </div>
+    </section>
+    <section class="product-detail">
+        <h1>桜花 682MS</h1>
+        <img src="sakura.jpg" alt="桜花" class="product-image">
+        <p class="price">価格：税込66,000円</p>
+        <p class="description">
+            神舞ブランド第一作目、バーサタイルスピニングロッド「桜花」。<br>
+            強靭なバットとしなやかなティップで、バス・トラウト・ライトソルトなどあらゆる魚種に対応する万能モデル。
+        </p>
+    </section>
+    <footer>
+        お問い合わせ：090-1843-3099<br>
+        Instagram：<a href="https://www.instagram.com/kamui_official_2023" target="_blank">@kamui_official_2023</a><br>
+        © 2025 神舞 -Kamui-
+    </footer>
 </body>
 </html>
