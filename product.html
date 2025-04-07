@@ -1,103 +1,25 @@
-
 <!DOCTYPE html>
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
-  <title>商品ページ</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: sans-serif;
-      background: black url('background_optimized_nocut.png') no-repeat center center;
-      background-size: contain;
-      color: white;
-      height: 100vh;
-      overflow: auto;
-    }
-    .navbar {
-      height: 80px;
-      font-size: 22px;
-      align-items: center;
-      display: flex;
-      justify-content: center;
-      gap: 20px;
-      padding: 15px;
-    }
-    .navbar a {
-      background-color: rgba(0, 0, 0, 0.7);
-      color: yellow;
-      padding: 10px 20px;
-      text-decoration: none;
-      border-radius: 10px;
-      font-weight: bold;
-      font-size: 18px;
-    }
-    .product-img {
-      display: block;
-      margin: 80px auto 20px;
-      max-width: 90%;
-    }
-    .description {
-      max-width: 80%;
-      margin: 0 auto;
-      font-size: 18px;
-      line-height: 1.6;
-      color: gold;
-      text-align: center;
-      background-color: rgba(0, 0, 0, 0.5);
-      padding: 15px;
-      border-radius: 8px;
-    }
-    .return-button {
-      display: block;
-      margin: 40px auto;
-      padding: 15px 30px;
-      background-color: yellow;
-      border: none;
-      font-size: 20px;
-      cursor: pointer;
-    }
-    .footer {
-      height: 100px;
-      font-size: 16px;
-      position: relative;
-      bottom: 0;
-      width: 100%;
-      padding: 20px 0;
-      background-color: rgba(0, 0, 0, 0.8);
-      color: #FFD700;
-      font-size: 0.9em;
-      text-align: center;
-    }
-    .footer-logo {
-      width: 80px;
-      height: auto;
-      display: block;
-      margin: 0 auto 5px;
-    }
-  </style>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>商品ページ - 神舞</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="navbar">
-    <a href="index.html">ホーム</a>
-    <a href="product.html">商品</a>
-    <a href="cart.html">カート</a>
-    <a href="contact.html">お問い合わせ</a>
-  </div>
-
-  <img src="sakura.jpg" alt="桜花" class="product-img">
-
-  <div class="description">
-    神威ブランド第一作目、バーサタイルスピニングロッド「桜花」。<br>
-    強靭なバットとしなやかなティップで、<br>
-    バス・トラウト・ライトソルトなどあらゆる魚種に対応する万能モデル。
-  </div>
-
-  <button class="return-button" onclick="history.back()">← 戻る</button>
-
-  <div class="footer">
-    <img src="logo.png" alt="Kamui ロゴ" class="footer-logo">
-    <p>© 2025 神舞 -Kamui- All Rights Reserved.</p>
-  </div>
+  <header>
+    <nav>
+      <a href="index.html">ホーム</a>
+      <a href="cart.html">カート</a>
+      <a href="contact.html">お問い合わせ</a>
+    </nav>
+  </header>
+  <section class="product">
+    <h1>桜花 682MS</h1>
+    <img src="sakura.jpg" alt="桜花" class="product-image">
+    <p>価格：税込66,000円</p>
+    <p>神舞ブランド第一作目、バーサタイルスピニングロッド「桜花」。<br>
+    強靭なバットとしなやかなティップで、バス・トラウト・ライトソルトなどあらゆる魚種に対応する万能モデル。</p>
+  </section>
 </body>
 </html>
