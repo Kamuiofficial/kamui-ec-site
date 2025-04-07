@@ -1,15 +1,14 @@
-
 {
   "name": "神舞 -Kamui-",
-  "short_name": "Kamui",
+  "short_name": "神舞",
   "start_url": "index.html",
   "display": "standalone",
   "background_color": "#000000",
-  "description": "神舞 -Kamui- 公式ECストア",
+  "theme_color": "#000000",
   "icons": [
     {
       "src": "logo.png",
-      "sizes": "192x192",
+      "sizes": "512x512",
       "type": "image/png"
     }
   ]
