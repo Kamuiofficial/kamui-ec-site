@@ -1,6 +1,7 @@
+
 {
-  "name": "神舞 -Kamui-",
-  "short_name": "神舞",
+  "name": "神舞 -Kamui- 公式アプリ",
+  "short_name": "Kamui",
   "start_url": "index.html",
   "display": "standalone",
   "background_color": "#000000",
