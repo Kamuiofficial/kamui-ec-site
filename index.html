@@ -2,24 +2,25 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>神舞 -Kamui-</title>
-  <link rel="manifest" href="manifest.json">
-  <meta name="theme-color" content="#000000">
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>神舞 -Kamui-</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="manifest" href="manifest.json" />
+    <link rel="icon" href="logo.png" />
 </head>
 <body>
-  <div class="content">
-    <h1>神舞 -Kamui- ECサイトへようこそ</h1>
-    <a href="product.html" class="btn">商品ページへ</a>
-  </div>
-  <script>
-    if ('serviceWorker' in navigator) {
-      navigator.serviceWorker.register('service-worker.js')
-      .then(reg => console.log('SW registered', reg))
-      .catch(err => console.error('SW registration failed', err));
-    }
-  </script>
+    <div class="header">
+        <img src="logo.png" alt="神舞ロゴ" class="logo" />
+        <nav>
+            <a href="index.html" class="nav-button">ホーム</a>
+            <a href="product.html" class="nav-button">商品</a>
+            <a href="cart.html" class="nav-button">カート</a>
+            <a href="contact.html" class="nav-button">お問い合わせ</a>
+        </nav>
+    </div>
+    <footer class="footer">
+        <p>&copy; 2025 神舞 -Kamui- All Rights Reserved.</p>
+    </footer>
 </body>
 </html>
